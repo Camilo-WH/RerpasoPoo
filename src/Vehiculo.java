@@ -7,8 +7,7 @@ public class Vehiculo {
     protected int año;
     protected double precio;
 
-    //---------------CONSTRUCTORES------------------------------
-
+    //---------------CONSTRUCTOR------------------------------
 
     public Vehiculo() {
     }
