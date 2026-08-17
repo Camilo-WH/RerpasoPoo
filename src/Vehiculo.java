@@ -78,8 +78,8 @@ public abstract class Vehiculo {
 
     public abstract double CalcularPrecioFinal();
     public String MostrarFicha(){
-        System.out.println("Este método muestra la información común del vehiculo");
-        return "";
+        return "Este método muestra la información común del vehiculo";
+
     }
 
 
