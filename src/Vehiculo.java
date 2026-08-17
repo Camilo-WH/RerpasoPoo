@@ -1,4 +1,4 @@
-public class Vehiculo {
+public abstract class Vehiculo {
 
     //------------------ATRIBUTOS---------------------
     protected String placa;
