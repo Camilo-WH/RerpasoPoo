@@ -39,4 +39,12 @@ public class Automovil extends Vehiculo {
                 ", Tipocombustible='" + Tipocombustible + '\'' +
                 '}';
     }
+
+    //-------------------METODOS-------------------------------
+    @Override
+    public double CalcularPrecioFinal() {
+        System.out.println("Este método calculará el precio final del automovil");
+        return 0;
+    }
+
 }

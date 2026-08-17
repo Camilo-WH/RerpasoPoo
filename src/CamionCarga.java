@@ -30,4 +30,12 @@ public class CamionCarga extends Vehiculo {
                 "CapacidadTonelada=" + CapacidadTonelada +
                 '}';
     }
+
+    //-------------------METODOS-------------------------------
+
+    @Override
+    public double CalcularPrecioFinal() {
+        System.out.println("Este método calculará el precio final del camión de carga");
+        return 0;
+    }
 }

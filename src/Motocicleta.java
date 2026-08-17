@@ -31,4 +31,13 @@ public class Motocicleta extends Vehiculo {
                 "Cilindraje=" + Cilindraje +
                 '}';
     }
+    //-------------------METODOS-------------------------------
+
+    @Override
+    public double CalcularPrecioFinal() {
+        System.out.println("Este método calculará el precio final de la motocicleta");
+        return 0;
+    }
+
+
 }

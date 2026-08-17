@@ -74,6 +74,14 @@ public abstract class Vehiculo {
                 '}';
     }
 
+    //-------------------METODOS-------------------------------
+
+    public abstract double CalcularPrecioFinal();
+    public String MostrarFicha(){
+        System.out.println("Este método muestra la información común del vehiculo");
+        return "";
+    }
+
 
 }
 
